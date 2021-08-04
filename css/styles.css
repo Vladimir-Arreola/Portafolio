@@ -88,7 +88,7 @@ html{
 @media (min-width: 768px) {
     .navegacion-principal{
         flex-direction: row;
-        justify-content: center; 
+        justify-content: space-evenly;
     }
 }
 
@@ -184,7 +184,7 @@ html{
 @media (min-width: 768px) {
     .contenedor-icon-back{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 1rem;
         width: 60%;
         margin: 0 auto;
@@ -207,4 +207,9 @@ html{
         width: 20rem;
         margin: 0 auto;
     }
+}
+
+.mini-icon{
+    height: 5rem;
+    width: 5rem;
 }
