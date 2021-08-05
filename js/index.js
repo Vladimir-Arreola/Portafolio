@@ -16,7 +16,7 @@ function contactMe(){
         whats.className = "info-contacto";
 
         var imgWhats = document.createElement('img');
-        imgWhats.src = "../img/whats.png";
+        imgWhats.src = "img/whats.png";
         imgWhats.alt = "WhatsApp";
         imgWhats.className = "icon-contact";
 
