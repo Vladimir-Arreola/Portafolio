@@ -332,5 +332,40 @@ html{
         display: inline;
     }
     
+}
 
+.botonJs{
+    border: none;
+    cursor: pointer;
+}
+
+.no-dec{
+    text-decoration: none;
+}
+
+.contactame{
+    margin-top: .5rem;
+    height: 20rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--gris-claro);
+    border-radius: 3px;
+}
+
+.info-contacto{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-contact{
+    height: 10rem;
+    margin-right: 1rem;
+}
+
+.texto-contac{
+    color: #fcde47;
+    font-size: 2rem;
 }
