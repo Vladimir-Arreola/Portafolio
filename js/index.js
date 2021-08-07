@@ -15,10 +15,10 @@ function contactMe(){
         var whats = document.createElement('div');
         whats.className = "info-contacto";
 
-        var imgWhats = document.createElement('img');
-        imgWhats.src = "../img/whats.png";
-        imgWhats.alt = "WhatsApp";
-        imgWhats.className = "icon-contact";
+        // var imgWhats = document.createElement('img');
+        // imgWhats.src = "../img/whats.png";
+        // imgWhats.alt = "WhatsApp";
+        // imgWhats.className = "icon-contact";
 
         var numero = document.createElement('p');
         numero.append("+52 384 101 3503");
@@ -27,19 +27,19 @@ function contactMe(){
         var gmail = document.createElement('div');
         gmail.className = "info-contacto";
 
-        var gmailImg = document.createElement('img');
-        gmailImg.src = "../img/gmail.png";
-        gmailImg.alt = "Gmail";
-        gmailImg.className = "icon-contact";
+        // var gmailImg = document.createElement('img');
+        // gmailImg.src = "../img/gmail.png";
+        // gmailImg.alt = "Gmail";
+        // gmailImg.className = "icon-contact";
 
         var direccion = document.createElement('p');
         direccion.append("vladimx19@gmail.com");
         direccion.className = "texto-contac";
 
-        gmail.appendChild(gmailImg);
+        // gmail.appendChild(gmailImg);
         gmail.append(direccion);
 
-        whats.appendChild(imgWhats);
+        // whats.appendChild(imgWhats);
         whats.append(numero);
         
 
